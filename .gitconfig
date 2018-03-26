@@ -1,0 +1,13 @@
+[user]
+	name = shubham thakur
+	email = sbmthakur@gmail.com
+[core]
+	editor = vim
+[alias]
+	tree = log --graph --color --oneline --decorate --all --pretty=format:\"%C(cyan)%h%Creset -%C(bold yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\"
+	whatadded = log --diff-filter=A
+	git = !exec git
+	sha = rev-parse HEAD
+	lfo = log --pretty=full --reverse --show-notes=* -p --abbrev-commit origin/master..
+[diff]
+	tool = vimdiff
