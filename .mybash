@@ -1,6 +1,7 @@
 #!/bin/bash
 # source this file in bashrc
 
+stty -ixon
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export PROXY=<PROXY_IP>
